@@ -44,7 +44,6 @@ Además, se integró esta prueba en **Jenkins** como parte de un pipeline simple
 
 ## 4. Aportes y dificultades durante el desarrollo
 
-**Ediciones hechas por Víctor Figueroa**:
 - Ajuste del script para incluir `time.sleep()` y capturas automáticas.
 - Manejo de errores usando `try-except` y `WebDriverWait`.
 - Corrección del error `UnicodeEncodeError` en Jenkins eliminando caracteres Unicode (`✅ ❌`) y reemplazándolos por texto plano.
